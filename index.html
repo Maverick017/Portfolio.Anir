@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-Anir</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script> 
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark" data-aos="zoom-in">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.iiuc.ac.bd/index.php/dashboard/" target="_blank">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Social</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    
+    <section class="container-fluid section bgimage" id="home" >
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text">
+                <h1 class="hero_title">Hi, it's me Anir</h1>
+                <p class="hero_desc">I am a student of IIUC</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container mt-4 pt-12 section about" id="about" data-aos="fade-left">
+        <h1 class="text" style="align-items: last baseline;">About Me</h1>
+        
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <img src="pxfuel.jpg" class="image_about" alt="Anir">
+            </div>
+            <div class="col-lg-6">
+                <p>My name is Safid Bin Azad.Anir is my nickname.I am studying Computer Science and Engineering in International Islamic University Chittagong.I am currently in third semester.Some personal informations of me is given below.</p>
+                <div class="row mt-1">
+                    <div class="col-md-12">
+                        <ul>
+                            <li>My hometown is Feni.</li>
+                            <li>I was born on 9th august,2001.</li>
+                            <li>I have an elder brother.</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                        <ul>
+                            <li>I passed SSC in 2018 from FGPHS.</li>
+                            <li>I passed HSC in 2020 from DRMC.</li>
+                            <li>I will complete my B.Sc from IIUC in 2026 Inshallah.</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <p>
+                        "Amateurs chase the sun and get burned. Power stays in the shadows."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container mt-3 section" id="contact" data-aos="fade-left">
+        <h1 class="text-center">Contact Me</h1>
+
+        <div class="row mt-10">
+            <div class="col-lg-6">
+                <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                    <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                        <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=International+Islamic+University+Chittagong,+Kumira,+Bangladesh&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                        </iframe>
+                    </div>
+                    <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                    <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                    </style>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <form>
+                    <input type="text" class="form-control mt-3" placeholder="Name">
+                    <input type="email" class="form-control mt-3" placeholder="Email">
+                    <input type="text" class="form-control mt-3" placeholder="Subject">
+                    <div class="mb-3 mt-3">
+                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                    </div>
+                </form>
+                <button type="button" class="btn btn-success mt-3">Contact Me</button>
+            </div>
+        </div>
+        
+    </section>
+    
+    <footer class="container-fluid footer" id="footer">
+        <div class="social-icons mt-4">
+            <a href="https://www.facebook.com/ami.anir?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com/saf_nir?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/AnirSafid?t=oMsorkBcWdZv5CecLedgzg&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/safid-bin-azad-190967250/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://discordapp.com/users/916251359584612382" target="_blank"><i class="fab fa-discord"></i></a>
+            <div>&copy;Anir Safid(2023)</div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

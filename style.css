@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 nav{
     background-color: #000000;
 }
@@ -39,7 +43,9 @@ nav{
 }
 
 .image_about {
-    width: 100%;
+    width: 50%;
+    height: 50%;
+    right: 100px;
 }
 
 p{
